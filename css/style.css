@@ -12,6 +12,10 @@ header {
 .size22px {
   font-size: 22px;
   padding-right: 10px;
+  cursor: pointer;
+}
+
+.borderRight1px {
   border-right: 1px solid #dbdbdb;
 }
 
