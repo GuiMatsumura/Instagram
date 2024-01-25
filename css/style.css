@@ -83,6 +83,15 @@ header {
   align-items: center;
   margin-left: 25px;
   position: relative;
+  h3 {
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #262626;
+  }
 }
 
 .storyImg {
@@ -164,8 +173,96 @@ header {
     font-weight: 300;
     line-height: 16px;
     letter-spacing: 0em;
+    color: #000000;
   }
   span {
     font-weight: 500;
+  }
+}
+
+.sideMenu {
+  position: fixed;
+  top: 110px;
+  left: 1140px;
+  width: 280px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.profileUser {
+  margin-left: 15px;
+  h3 {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: #262626;
+  }
+  h4 {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: #8e8e8e;
+  }
+  h6 {
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    color: #8e8e8e;
+  }
+}
+
+.sugestions {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+}
+
+.names {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 20px 0;
+}
+.userName {
+  h3 {
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0em;
+    color: #8e8e8e;
+  }
+}
+
+.name {
+  h4 {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0em;
+    color: #262626;
+  }
+}
+
+.profileSugestion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h5 {
+    color: #139ef2;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0em;
   }
 }
