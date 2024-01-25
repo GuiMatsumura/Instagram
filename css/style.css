@@ -266,3 +266,17 @@ header {
     letter-spacing: 0em;
   }
 }
+
+.instaInfo {
+  margin-top: 20px;
+  h5 {
+    font-family: "Roboto";
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    color: #c7c7c7;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+}
