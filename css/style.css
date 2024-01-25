@@ -106,7 +106,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20px 0 300px 25%;
+  margin: 20px 0 30px 25%;
 }
 .postHeader {
   width: 580px;
@@ -135,7 +135,7 @@ header {
 
 .postImg {
   img {
-    width: 612px;
+    width: 614px;
     height: 612px;
   }
 }
